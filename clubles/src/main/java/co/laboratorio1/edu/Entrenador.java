@@ -2,11 +2,11 @@ package co.laboratorio1.edu;
 
 import java.util.ArrayList;
 
-public class Entrenador {
+public class Entrenador extends Persona{
 
-    private String nombre;
     private String especialidad;
     private SesionEntrenamiento sesionesEntrenamientos;
+    Super(nombre);
 
     public Entrenador (String nombre, String especialidad){
 

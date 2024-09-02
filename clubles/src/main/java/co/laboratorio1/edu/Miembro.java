@@ -1,10 +1,8 @@
 package co.laboratorio1.edu;
 
-public class Miembro{
+public class Miembro extends Persona{
 
-    private String nombre;
-    private String correo;
-    private String id;
+    Super(nombre, correo, id);
     private TipoMiembro tipoMiembro;
 
     public Miembro (String nombre, String correo, Sring id, TipoMiembro tipoMiembro){
@@ -42,6 +40,6 @@ public class Miembro{
     }
 
     
-
+public void registrarMiembro
 
 }
